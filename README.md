@@ -10,6 +10,7 @@ NetworkManager can be installed with the package networkmanager.While network-ma
 ### Starting
 
 sudo systemctl enable NetworkManager.service
+
 sudo systemctl start NetworkManager.service
 
 ## Bible Time
