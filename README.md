@@ -1,5 +1,6 @@
-## About linux-journey
-### This is a repo to help me get back on my feet after a major format of my pc.
+# ArchLinux Journey
+
+A repo to help me get back on my feet after a major format of my pc.
 
 ## Network Manager
 NetworkManager is a program for providing detection and configuration for systems to automatically connect to network. NetworkManager's functionality can be useful for both wireless and wired networks. For wireless networks, NetworkManager prefers known wireless networks and has the ability to switch to the most reliable network. NetworkManager-aware applications can switch from online and offline mode. http://projects.gnome.org/NetworkManager/
