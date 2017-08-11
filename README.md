@@ -13,6 +13,17 @@ sudo systemctl enable NetworkManager.service
 
 sudo systemctl start NetworkManager.service
 
+## Chromium
+Chromium is an open-source graphical web browser from "The Chromium Project", based on the Blink rendering engine.
+
+### Installation
+
+sudo pacman -S chromium
+
+### Notes
+
+Its 55MB and takes 208MB when installed
+
 ## Bible Time
 
 BibleTime is a completely free Bible study program, built for Linux, Windows, FreeBSD and Mac OS X. 
