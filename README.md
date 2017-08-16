@@ -2,6 +2,28 @@
 
 A repo to help me get back on my feet after a major format of my pc.
 
+## Video
+mpv is a media player based on MPlayer and MPlayer2. It supports a wide variety of video file formats, audio and video codecs, and subtitle types. mpv comes with a minimal GUI called On Screen Controller (OSC), that appears when moving the mouse.
+
+### Installation
+
+sudo pacman -S mpv
+
+## Sound
+PulseAudio serves as a proxy to sound applications using existing kernel sound components like ALSA or OSS. Since ALSA is included in Arch Linux by default, the most common deployment scenarios include PulseAudio with ALSA.
+
+### Installation
+
+* sudo pacman -S pulseaduio paprefs pavucontrol
+* Restart computer
+
+## Audacity
+A program that lets you manipulate digital audio waveforms
+
+### Installation
+
+sudo pacman -S audacity
+
 ## Network Manager
 NetworkManager is a program for providing detection and configuration for systems to automatically connect to network. NetworkManager's functionality can be useful for both wireless and wired networks. For wireless networks, NetworkManager prefers known wireless networks and has the ability to switch to the most reliable network. NetworkManager-aware applications can switch from online and offline mode. http://projects.gnome.org/NetworkManager/
 
