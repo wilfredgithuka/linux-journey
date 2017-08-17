@@ -9,6 +9,14 @@ mpv is a media player based on MPlayer and MPlayer2. It supports a wide variety 
 
 sudo pacman -S mpv
 
+## Kdenlive Video Editor
+Kdenlive is an acronym for KDE Non-Linear Video Editor. It is primarily aimed at the GNU/Linux platform but also works on BSD and MacOS. It is currently being ported to Windows as a GSOC project. Non-linear video editing is much more powerful than beginners’ (linear) editors, hence it requires a bit more organization before starting. However, it is not reserved to specialists and can be used for small personal projects.
+
+### Installation
+
+* sudo pacman -Syy
+* sudo pacman -S kdenlive frei0r-plugins dvdauthor vlc cdrtools
+
 ## Sound
 PulseAudio serves as a proxy to sound applications using existing kernel sound components like ALSA or OSS. Since ALSA is included in Arch Linux by default, the most common deployment scenarios include PulseAudio with ALSA.
 
