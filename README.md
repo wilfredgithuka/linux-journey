@@ -58,3 +58,27 @@ Bible Society via the SWORD programming library. BibleTime is written in C++ and
 sudo pacman -S bibletime
 
 Note: Its very heavy on memory, includes additional commentaries and bibles + languages
+
+## Mods
+
+### The I Love Candy Pacman Mod
+
+[Pacman](https://wiki.archlinux.org/index.php/pacman ) is the official package manager for Archlinux. Sometimes its 
+boring watching the Hashes which are used to show progress when Pacman is downloading/working. This kind of user interface has a new mod that shows a capital C eating 
+small things during the progress.
+
+#### Modify the Pacman config file using your favorite editor.
+
+sudo nano /etc/pacman.conf
+
+Go down to Misc Options and add the word ILoveCandy to the end of the list.
+
+#### Misc options
+#UseSyslog
+#Color
+#TotalDownload
+CheckSpace
+#VerbosePkgLists
+ILoveCandy
+
+Save the changes and it will take effect immediately.
