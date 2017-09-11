@@ -44,6 +44,15 @@ sudo systemctl enable NetworkManager.service
 
 sudo systemctl start NetworkManager.service
 
+### Creating a wifi Access Point
+Sometimes times may need to create a wifi network from your pc wifi card. This is how its done using create_ap. A software access point is used when you want your computer to act as a Wi-Fi access point for the local network. It saves you the trouble of getting a separate wireless router.
+
+The create_ap script combines hostapd, dnsmasq and iptables to create a Bridged/NATed Access Point (available in create_ap or create_ap-gitAUR). After downloading create_ap, run the following script:
+
+* sudo create_ap -n wifiunterfacename ssid password
+
+Replace with approprate details above with your device's name.
+
 ## Chromium
 Chromium is an open-source graphical web browser from "The Chromium Project", based on the Blink rendering engine.
 
